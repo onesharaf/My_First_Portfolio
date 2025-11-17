@@ -1,54 +1,63 @@
-</body>
-</html><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My First Webpage</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Structured Page</title>
 </head>
 <body>
 
-    <!-- Heading Level 1 -->
-    <h1>Welcome to My First Webpage</h1>
-<header>
-    <!-- Paragraph 1 -->
-    <p>This is the main page of my new website. I am learning how to structure content using HTML, which is the skeleton of every webpage. It's exciting to see how different tags create different elements on the page.</p>
+  <!-- 1. The Header: Contains navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="base_index.html">Home</a></li>
+        <!-- I'm adding a link for tweets.html as well, 
+             assuming it will be your other page -->
+        <li><a href="tweets.html">Tweets</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Heading Level 2 -->
-    <h2>About This Page</h2>
+  <!-- 2. The Main Content Area -->
+  <main>
 
-    <!-- Paragraph 2 -->
-    <p>On this page, we are exploring several key HTML tags. We have paragraphs, like this one, and we also have different levels of headings to organize our topics clearly. Learning to nest tags is also important, like making an image clickable.</p>
+    <!-- The <article> tag holds the primary page content -->
+    <article>
+      <!-- All your previous content goes in here -->
+      <h1>The Main Heading of My Page</h1>
+      <p>This is the first paragraph. It usually gives an introduction or summary of the page content. We are learning about HTML structure.</p>
 
-    <!-- Heading Level 3 -->
-    <h3>Key Elements Added</h3>
+      <h2>A Major Section</h2>
+      <p>This is the second paragraph. It starts a new section, explaining a key topic in more detail.</p>
+      <p>This is the third paragraph, which continues the discussion within the "Major Section". Good HTML structure is important for accessibility and SEO.</p>
 
-    <!-- Paragraph 3 -->
-    <p>So far, we have added headings of levels 1, 2, and 3. We have also included several paragraphs of text to act as content. The next element is a clickable image, which combines an anchor tag (for the link) and an image tag.</p>
+      <h3>A Sub-Section</h3>
+      <p>This is the fourth paragraph. As it's under an H3, it drills down into a more specific point related to the H2 section above.</p>
 
-    <!-- A Clickable Image -->
-      <ul> <li><a href="https://www.alxafrica.com/"></li>
-        <li><img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="The ALX logo, which is red and says ALX"></li>
-     <li><p>The image above is the ALX logo. I've wrapped it in an anchor tag (a link) so that if you click on it, it will take you to the official ALX website. I also added an 'alt' attribute to the image, which is important for accessibility as it describes the image for screen readers.</p>
-</li>
- <p><a> href="tweets.html" my tweets></a>
-    </p>
-    
+      <p>Here is a clickable image. It's wrapped in an anchor (<a>) tag.</p>
+      <a href="https://www.alxafrica.com/" target="_blank">
+        <img 
+          src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" 
+          alt="ALX Africa Logo" 
+          width="300"
+        >
+      </a>
+    </article>
 
-</ul>
-</header>
-<p> COME ON</p>
+    <!-- The <aside> tag holds secondary, related content -->
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
 
-<main>
-    <!-- Paragraph 4 -->
-    <p>The image above is the ALX logo. I've wrapped it in an anchor tag (a link) so that if you click on it, it will take you to the official ALX website. I also added an 'alt' attribute to the image, which is important for accessibility as it describes the image for screen readers.</p>
- <article>
-    <P>THEM NO GOOD</P>
-</article>
-<p>COME ON</p>
-    <aside><p> placeholder to add comment thread later</p></aside>
-</main>
-<footer>
-   <p> Made by Richard Adamah <a href="https://github.com/onesharaf/My_First_Portfolio" target="_blank">here</a></p>
-</footer>
+  </main>
+
+  <!-- 3. The Footer: Contains site info -->
+  <!-- IMPORTANT: Don't forget to change "Your Name" to your actual name! -->
+  <footer>
+    <!-- The checker requires this <p> tag to be on a single line -->
+    <p>Richard Adamah - <a href="https://www.alxafrica.com/" target="_blank">here</a>.</p>
+  </footer>
+
 </body>
 </html>
