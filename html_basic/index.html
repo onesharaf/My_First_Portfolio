@@ -1,63 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Structured Page</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Structured Webpage</title>
+  </head>
+  <body>
 
-  <!-- 1. The Header: Contains navigation -->
-  <header>
-    <nav>
+    <!-- Header: Contains navigation -->
+    <header>
       <ul>
+        <!-- 
+          The user's prompt mentioned 'tweets.html' as another page.
+          This list provides navigation to all pages on the site.
+        -->
         <li><a href="base_index.html">Home</a></li>
-        <!-- I'm adding a link for tweets.html as well, 
-             assuming it will be your other page -->
-        <li><a href="tweets.html">Tweets</a></li>
+        <li><a href="tweets.html">My Tweets</a></li>
       </ul>
-    </nav>
-  </header>
+    </header>
 
-  <!-- 2. The Main Content Area -->
-  <main>
+    <!-- Main Content: Contains the primary content and a sidebar -->
+    <main>
 
-    <!-- The <article> tag holds the primary page content -->
-    <article>
-      <!-- All your previous content goes in here -->
-      <h1>The Main Heading of My Page</h1>
-      <p>This is the first paragraph. It usually gives an introduction or summary of the page content. We are learning about HTML structure.</p>
+      <!-- Article: All the main page content goes here -->
+      <article>
+        <!-- Heading Level 1 -->
+        <h1>My First Webpage</h1>
+        <p>This is my first paragraph. Building HTML pages is an exciting first step in web development. It's all about using tags to structure content.</p>
 
-      <h2>A Major Section</h2>
-      <p>This is the second paragraph. It starts a new section, explaining a key topic in more detail.</p>
-      <p>This is the third paragraph, which continues the discussion within the "Major Section". Good HTML structure is important for accessibility and SEO.</p>
+        <!-- Heading Level 2 -->
+        <h2>About HTML Structure</h2>
+        <p>As we learned, a valid HTML page needs a DOCTYPE, an html tag, a head, and a body. The head contains metadata like the title and character set, while the body contains the visible content.</p>
 
-      <h3>A Sub-Section</h3>
-      <p>This is the fourth paragraph. As it's under an H3, it drills down into a more specific point related to the H2 section above.</p>
+        <!-- Heading Level 3 -->
+        <h3>Why Validation Matters</h3>
+        <p>Using an HTML validator helps catch small mistakes that can cause big problems. It ensures our page is built correctly and will work predictably across different browsers. It's a great habit to build early!</p>
+        
+        <p>This is my fourth paragraph. Now, let's add the clickable image as requested.</p>
 
-      <p>Here is a clickable image. It's wrapped in an anchor (<a>) tag.</p>
-      <a href="https://www.alxafrica.com/" target="_blank">
-        <img 
-          src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" 
-          alt="ALX Africa Logo" 
-          width="300"
-        >
-      </a>
-    </article>
+        <!-- Clickable Image -->
+        <a href="https://www.alxafrica.com/">
+          <img 
+            src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" 
+            alt="ALX Africa Logo" 
+            width="200"
+          >
+        </a>
+      </article>
 
-    <!-- The <aside> tag holds secondary, related content -->
-    <aside>
-      <p>placeholder to add comment thread later</p>
-    </aside>
+      <!-- Aside: Sidebar content -->
+      <aside>
+        <p>placeholder to add comment thread later</p>
+      </aside>
 
-  </main>
+    </main>
 
-  <!-- 3. The Footer: Contains site info -->
-  <!-- IMPORTANT: Don't forget to change "Your Name" to your actual name! -->
-  <footer>
-    <!-- The checker requires this <p> tag to be on a single line -->
-    <p>Richard Adamah - <a href="https://www.alxafrica.com/" target="_blank">here</a>.</p>
-  </footer>
+    <!-- Footer: Contains copyright and author info -->
+    <footer>
+      <p>Richard Adamah - <a href="https://www.alxafrica.com/" target="_blank">here</a></p>
+    </footer>
 
-</body>
+  </body>
 </html>
